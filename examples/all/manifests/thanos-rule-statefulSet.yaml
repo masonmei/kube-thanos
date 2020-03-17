@@ -44,7 +44,7 @@ spec:
             secretKeyRef:
               key: thanos.yaml
               name: thanos-objectstorage
-        image: quay.io/thanos/thanos:v0.10.1
+        image: quay.azk8s.cn/thanos/thanos:v0.10.1
         livenessProbe:
           failureThreshold: 24
           httpGet:
